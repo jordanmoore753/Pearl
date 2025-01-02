@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-require_relative "simple_ssg/version"
+require_relative "pearl/version"
 
-module SimpleSsg
+module Pearl 
   class Error < StandardError; end
   # Your code goes here...
 

@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require_relative "lib/simple_ssg/version"
+require_relative "lib/pearl/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "simple_ssg"
-  spec.version = SimpleSsg::VERSION
+  spec.name = "pearl"
+  spec.version = Pearl::VERSION
   spec.authors = ["Jordan Moore"]
   spec.email = ["jordanmoore753@gmail.com"]
 

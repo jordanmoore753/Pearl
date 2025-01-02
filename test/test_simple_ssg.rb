@@ -2,9 +2,9 @@
 
 require "test_helper"
 
-class TestSimpleSsg < Minitest::Test
+class TestPearl < Minitest::Test
   def test_that_it_has_a_version_number
-    refute_nil ::SimpleSsg::VERSION
+    refute_nil ::Pearl::VERSION
   end
 
   def test_it_does_something_useful
