@@ -19,6 +19,12 @@ class TestPearl < Minitest::Test
     File.write(@docx_path, "Dummy DOCX content")
   end
 
+  def teardown
+    FileUtils.rm_rf(@layouts_dir)
+    FileUtils.rm_rf(@docx_dir)
+    FileUtils.rm_rf(@converted_dir)
+  end
+
   def test_that_it_has_a_version_number
     refute_nil ::Pearl::VERSION
   end
